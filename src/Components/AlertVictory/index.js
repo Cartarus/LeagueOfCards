@@ -18,7 +18,7 @@ function onClick() {
             className="victory-button "
             onClick={() => onClick(false)}
           >
-            Jugar de Nuevo
+            Play again
           </button>
         </div>
       </div>
