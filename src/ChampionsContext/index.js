@@ -4,7 +4,7 @@ const championsContext = React.createContext();
 
 function ChampionsProvider(props) {
   const URL_CHAMPS =
-    "http://ddragon.leagueoflegends.com/cdn/12.12.1/data/en_US/champion.json";
+    "https://ddragon.leagueoflegends.com/cdn/12.12.1/data/en_US/champion.json";
 
   // let champions = [];
   const [champions, setChampions] = React.useState([]);
