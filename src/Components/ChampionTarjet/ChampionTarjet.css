@@ -1,0 +1,59 @@
+
+.Champion--Tarjet{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    perspective: 1000px;    
+}
+
+.Champion--Tarjet:hover{
+    cursor: pointer;
+}
+
+.Champion--Tarjet--inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.65s;
+  transform-style: preserve-3d;
+}
+
+.flipped .Champion--Tarjet--inner{
+    transform: rotateY(180deg);
+}
+
+.Champion--Tarjet--button{
+    position: absolute;
+    object-fit: contain;
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: gray 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    backface-visibility: hidden;
+}
+
+.Champion--Tarjet--button img{
+    height: 20%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.Champion--Tarjet--img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit:contain;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+
+}

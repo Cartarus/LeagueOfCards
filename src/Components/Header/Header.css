@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.Title{
+    font-family: 'Friz Quadrata Std', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    grid-column: 6/8;
+    color: gold;
+
+}
+
+.Score{
+    font-family: 'Friz Quadrata Std', sans-serif;
+    font-size: 20px;
+    grid-column: 11/12;
+    
+}
+
+
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title{
+    font-family: 'Friz Quadrata Std', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Score{
+    font-family: 'Friz Quadrata Std', sans-serif;
+    font-size: 20px;
+    
+} */
