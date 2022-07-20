@@ -7,7 +7,7 @@ function Header(params) {
   return (
     <>
       <header className="container">
-        <p className="Title">league of Cards</p>
+        <p className="Title">League of Cards</p>
 
         <p className="Score">Score: {points}</p>
       </header>
