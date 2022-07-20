@@ -1,6 +1,8 @@
 import React from "react";
 
 import "./ChampionTarjet.css";
+import image from "../../assets/lol-logo.png";
+
 
 function ChampionTarjet(props) {
   const [isclicked, setIsClicked] = React.useState(false);
@@ -48,7 +50,7 @@ function ChampionTarjet(props) {
           onClick={onCLick}
           disabled={props.discoveredCards.some((card) => card === props.name)}
         >
-          <img src="/assets\lol-logo.png"></img>
+          <img src={image}></img>
         </div>
         <img className="Champion--Tarjet--img" src={props.url} />
       </div>
