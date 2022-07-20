@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LeagueOfCards/static/css/main.e52deff9.css",
+    "main.js": "/LeagueOfCards/static/js/main.fc675884.js",
+    "index.html": "/LeagueOfCards/index.html",
+    "main.e52deff9.css.map": "/LeagueOfCards/static/css/main.e52deff9.css.map",
+    "main.fc675884.js.map": "/LeagueOfCards/static/js/main.fc675884.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e52deff9.css",
+    "static/js/main.fc675884.js"
+  ]
+}
